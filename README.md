@@ -1,7 +1,7 @@
 ## 关于
-二进制文件来源于 [OpenList官方](https://github.com/OpenListTeam/OpenList) 最新Release（每日北京时间0时自动拉取更新，并构建为Docker镜像）
+二进制文件来源于 [OpenList官方](https://github.com/OpenListTeam/OpenList) 最新Release（北京时间每日0时自动拉取更新，并构建为Docker镜像推送到 [dockerhub](https://hub.docker.com/u/williamtom) ）
 ## PaaS 平台部署
-在支持 Docker 的 PaaS 平台（如 Railway、Fly.io和justrunmy.app 等）上，使用如下dockerhub镜像。
+在支持 Docker 的 PaaS 平台上（如 Railway、Fly.io 和 justrunmy.app 等）使用此镜像：
 ```
 williamtom/openlist4paas
 ```
