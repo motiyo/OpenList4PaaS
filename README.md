@@ -1,18 +1,11 @@
+## 关于
+镜像来源于 [OpenList官方](https://github.com/OpenListTeam/OpenList) 最新版本（每日0时自动拉取更新），本项目旨在便于PaaS 平台部署相关服务。
 ## PaaS 平台部署
 在支持 Docker 的 PaaS 平台（如 Railway、Fly.io和justrunmy.app 等）上，使用如下dockerhub镜像。
 ```
 williamtom/openlist4paas
 ```
 ## 配置项
-环境变量
-```
-UMASK=022
-```
-端口号
-```
-5244
-```
-映射目录
-```
-/opt/openlist/data
-```
+| 环境变量 | 端口号 | 映射目录 |
+|:----:|:----:|:----:|
+| UMASK=022 | 5244 | /opt/openlist/data |
