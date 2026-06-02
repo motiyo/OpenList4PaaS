@@ -1,5 +1,5 @@
 ## 关于
-镜像来源于 [OpenList官方](https://github.com/OpenListTeam/OpenList) 最新版本（每日0时自动拉取更新），本项目旨在便于PaaS 平台部署相关服务。
+二进制文件来源于 [OpenList官方](https://github.com/OpenListTeam/OpenList) 最新Release（每日北京时间0时自动拉取更新，并构建为Docker镜像）
 ## PaaS 平台部署
 在支持 Docker 的 PaaS 平台（如 Railway、Fly.io和justrunmy.app 等）上，使用如下dockerhub镜像。
 ```
